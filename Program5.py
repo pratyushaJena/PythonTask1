@@ -16,7 +16,7 @@ print('Second set:')
 print(set2)
 def set(s1,s2):
   s1.difference_update(s2)
-  print('First set after updation with the values that exit only in the first set but not in the second set')
+  print('First set after updation with the values that exist only in the first set but not in the second set')
   print(s1)
 set(set1,set2)
 set({1,2,3,4,5,6,7,8,9},{1,3,4,6,8,11,22,34,51,67})
